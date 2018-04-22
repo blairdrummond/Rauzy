@@ -1,0 +1,7 @@
+*.o
+*.hi
+*.png
+*.jpeg
+*.jpg
+*.svg
+grapher
