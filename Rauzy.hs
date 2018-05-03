@@ -3,6 +3,7 @@ module Rauzy (
     module Rauzy.Alphabet,
     module Rauzy.Substitution,
     module Rauzy.Examples,
+    -- module Rauzy.Measures,
     module Rauzy.Diagrams
 
  ) where
@@ -10,4 +11,5 @@ module Rauzy (
 import Rauzy.Alphabet
 import Rauzy.Substitution
 import Rauzy.Examples
+-- import Rauzy.Measures
 import Rauzy.Diagrams
