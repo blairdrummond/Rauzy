@@ -4,7 +4,8 @@ module Rauzy (
     module Rauzy.Substitution,
     module Rauzy.Examples,
     -- module Rauzy.Measures,
-    module Rauzy.Diagrams
+    module Rauzy.Diagrams,
+    module Rauzy.Graph
 
  ) where
 
@@ -13,3 +14,4 @@ import Rauzy.Substitution
 import Rauzy.Examples
 -- import Rauzy.Measures
 import Rauzy.Diagrams
+import Rauzy.Graph

@@ -11,4 +11,15 @@ ghc grapher.hs
 
 # TODO
 
-Use Cabal to build dependency list and cabal package?
+- Use Cabal to build dependency list and cabal package?
+
+- Measures?
+
+- Frid's ideas:
+
+	- Homeomorphism classes of graphs
+	- Marked-ness and uniformity
+	- Syncronization points
+	
+	
+	- Other DOL Stuff?

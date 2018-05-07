@@ -4,10 +4,9 @@ module Rauzy.Substitution
     where
   
 import Rauzy.Alphabet
+import Rauzy.Graph
 import Data.List
 import Prelude hiding (Word)
-
-
 
 
 
@@ -69,3 +68,8 @@ complexity :: Alphabet a => [[Word a]] -> [Double]
 complexity list = 1 : zipWith (/) (tail $ map (fromIntegral . length) list) (map fromIntegral [1..])
 
   
+subToGraphs :: Alphabet a => Substitution a -> [Graph]
+subToGraphs sys = map edgesToGraph [
+                   [ (fromEnum x, fromEnum y) | (x,y,_) <- l ]
+                       | l <- subToEdges sys
+                  ]
